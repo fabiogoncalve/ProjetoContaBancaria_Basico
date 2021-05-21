@@ -91,7 +91,6 @@ void conta::consultarsaldo(conta&destino)
 	std::cout << " CONTA CORRENTE: " << numconta << std::endl;
 	std::cout << " TITULAR:" << titular << std::endl;
 	std::cout << " SEU SALDO ATUAL: " << saldo << std::endl;
-	std::cout << "\n ACAO CONCLUIDA COM SUCESSO " << std::endl;
 
 }
 
@@ -116,7 +115,7 @@ void conta::transferir(conta& destino, float valor)
 		std::cout << " ---------------------------------" << std::endl;
 		std::cout << " VALOR TRANSFERIDO: " << valor << std::endl;
 		std::cout << " SEU SALDO ATUAL: " << saldo << std::endl;
-		std::cout << "\n ACAO CONCLUIDA COM SUCESSO " << std::endl;
+		std::cout << "\nACAO CONCLUIDA COM SUCESSO " << std::endl;
 
 
 	}
